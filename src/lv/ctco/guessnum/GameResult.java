@@ -7,4 +7,14 @@ public class GameResult {
     String name;
     int triesCount;
     long duration;
+
+    public GameResult() {
+
+    }
+
+    public GameResult(String name, int triesCount, long duration) {
+        this.name = name;
+        this.triesCount = triesCount;
+        this.duration = duration;
+    }
 }
